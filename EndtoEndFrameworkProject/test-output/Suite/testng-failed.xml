@@ -5,21 +5,19 @@
     <classes>
       <class name="E2EFramework.HomePage">
         <methods>
-          <include name="driverclose"/>
+          <include name="basePageNavigation"/>
           <include name="initilize"/>
         </methods>
       </class> <!-- E2EFramework.HomePage -->
       <class name="E2EFramework.ValidateContactNavigation">
         <methods>
           <include name="initilize"/>
-          <include name="driverclose"/>
+          <include name="basePageNavigation"/>
         </methods>
       </class> <!-- E2EFramework.ValidateContactNavigation -->
       <class name="E2EFramework.ValidateTitle">
         <methods>
           <include name="basePageNavigation"/>
-          <include name="initilize"/>
-          <include name="driverclose"/>
         </methods>
       </class> <!-- E2EFramework.ValidateTitle -->
     </classes>

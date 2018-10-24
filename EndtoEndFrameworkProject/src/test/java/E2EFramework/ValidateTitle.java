@@ -18,13 +18,14 @@ public class ValidateTitle extends base
 	{
 		driver=iniilizeDriver();
 		//driver.get(prop.getProperty("url"));  
-		driver.manage().window().maximize();
+		
 	}
 	
 	@Test
 	public void basePageNavigation()
 	{
 		driver.get(prop.getProperty("url"));  
+		driver.manage().window().maximize();
 		LandingPage l = new LandingPage(driver);
 		
 		//Compare the text from browser to the actual required text

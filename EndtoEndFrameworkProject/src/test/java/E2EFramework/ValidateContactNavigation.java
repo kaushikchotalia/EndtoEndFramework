@@ -16,13 +16,14 @@ public class ValidateContactNavigation extends base
 	public void initilize() throws IOException
 	{
 		driver=iniilizeDriver();
-		Properties prop=new Properties();
-		driver.get(prop.getProperty("url"));  
-		driver.manage().window().maximize();
+		//Properties prop=new Properties();
+		
 	}
 	@Test
 	public void basePageNavigation()
 	{
+		driver.get(prop.getProperty("url"));  
+		driver.manage().window().maximize();
 		LandingPage l = new LandingPage(driver);
 		//l.getContactNavigation().isDisplayed();
 		Assert.assertTrue(l.getContactNavigation().isDisplayed());

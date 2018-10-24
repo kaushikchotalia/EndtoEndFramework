@@ -1,6 +1,7 @@
 package E2EFramework;
 
 import java.io.IOException;
+import java.util.Properties;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -16,13 +17,15 @@ public class HomePage extends base{
 	public void initilize() throws IOException
 	{
 		driver=iniilizeDriver();
-		driver.manage().window().maximize();
+		//Properties prop=new Properties();
+		
 	}
 	
 	@Test(dataProvider="getData") 
 	public void basePageNavigation(String Username,String Password)
 	{
 		driver.get(prop.getProperty("url"));  
+		driver.manage().window().maximize();
 		LandingPage l = new LandingPage(driver);
 		l.getLogin().click();
 		

@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="49609" started-at="2018-10-23T00:31:00Z" finished-at="2018-10-23T00:31:50Z">
+  <suite name="Default suite" duration-ms="17885" started-at="2018-10-24T00:39:07Z" finished-at="2018-10-24T00:39:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="49609" started-at="2018-10-23T00:31:00Z" finished-at="2018-10-23T00:31:50Z">
-      <class name="E2EFramework.ValidateContactNavigation">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:E2EFramework.ValidateContactNavigation@91161c7]" name="basePageNavigation" duration-ms="84" started-at="2018-10-22T20:31:30Z" finished-at="2018-10-22T20:31:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-      </class> <!-- E2EFramework.ValidateContactNavigation -->
-      <class name="E2EFramework.HomePage">
-        <test-method status="PASS" signature="initilize()[pri:0, instance:E2EFramework.HomePage@68c4039c]" name="initilize" is-config="true" duration-ms="4651" started-at="2018-10-22T20:31:00Z" finished-at="2018-10-22T20:31:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initilize -->
-        <test-method status="PASS" signature="initilize()[pri:0, instance:E2EFramework.ValidateContactNavigation@91161c7]" name="initilize" is-config="true" duration-ms="11536" started-at="2018-10-22T20:31:05Z" finished-at="2018-10-22T20:31:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initilize -->
-        <test-method status="PASS" signature="initilize()[pri:0, instance:E2EFramework.ValidateTitle@604ed9f0]" name="initilize" is-config="true" duration-ms="13690" started-at="2018-10-22T20:31:16Z" finished-at="2018-10-22T20:31:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initilize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EFramework.HomePage@68c4039c]" name="basePageNavigation" duration-ms="13291" started-at="2018-10-22T20:31:30Z" data-provider="getData" finished-at="2018-10-22T20:31:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:E2EFramework.HomePage@68c4039c]" name="basePageNavigation" duration-ms="5459" started-at="2018-10-22T20:31:44Z" data-provider="getData" finished-at="2018-10-22T20:31:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hello@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="driverclose()[pri:0, instance:E2EFramework.HomePage@68c4039c]" name="driverclose" is-config="true" duration-ms="279" started-at="2018-10-22T20:31:49Z" finished-at="2018-10-22T20:31:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverclose -->
-        <test-method status="PASS" signature="driverclose()[pri:0, instance:E2EFramework.ValidateContactNavigation@91161c7]" name="driverclose" is-config="true" duration-ms="195" started-at="2018-10-22T20:31:49Z" finished-at="2018-10-22T20:31:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverclose -->
-        <test-method status="PASS" signature="driverclose()[pri:0, instance:E2EFramework.ValidateTitle@604ed9f0]" name="driverclose" is-config="true" duration-ms="205" started-at="2018-10-22T20:31:50Z" finished-at="2018-10-22T20:31:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverclose -->
-      </class> <!-- E2EFramework.HomePage -->
+    <test name="Default test" duration-ms="17885" started-at="2018-10-24T00:39:07Z" finished-at="2018-10-24T00:39:25Z">
       <class name="E2EFramework.ValidateTitle">
-        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:E2EFramework.ValidateTitle@604ed9f0]" name="basePageNavigation" duration-ms="195" started-at="2018-10-22T20:31:30Z" finished-at="2018-10-22T20:31:30Z">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:E2EFramework.ValidateTitle@5419f379]" name="initilize" is-config="true" duration-ms="3479" started-at="2018-10-23T20:39:07Z" finished-at="2018-10-23T20:39:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:E2EFramework.ValidateTitle@5419f379]" name="basePageNavigation" duration-ms="12288" started-at="2018-10-23T20:39:11Z" finished-at="2018-10-23T20:39:23Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Featured Courses123] but found [FEATURED COURSES]]]>
@@ -83,7 +23,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:123)
 	at org.testng.Assert.assertEquals(Assert.java:176)
 	at org.testng.Assert.assertEquals(Assert.java:186)
-	at E2EFramework.ValidateTitle.basePageNavigation(ValidateTitle.java:30)
+	at E2EFramework.ValidateTitle.basePageNavigation(ValidateTitle.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -114,7 +54,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="driverclose()[pri:0, instance:E2EFramework.ValidateTitle@5419f379]" name="driverclose" is-config="true" duration-ms="2102" started-at="2018-10-23T20:39:23Z" finished-at="2018-10-23T20:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
       </class> <!-- E2EFramework.ValidateTitle -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
