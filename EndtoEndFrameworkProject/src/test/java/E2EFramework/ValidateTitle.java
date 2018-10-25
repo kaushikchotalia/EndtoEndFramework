@@ -22,7 +22,7 @@ public class ValidateTitle extends base
 	}
 	
 	@Test
-	public void validateHomePageTitle()
+	public void validateHomePageTitleTest()
 	{
 		driver.get(prop.getProperty("url"));  
 		driver.manage().window().maximize();
