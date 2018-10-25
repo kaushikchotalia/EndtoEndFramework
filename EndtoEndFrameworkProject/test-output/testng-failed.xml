@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="E2EFramework.listeners"/>
+  </listeners>
+  <test name="E2EFramework.ValidateTitle(failed)">
     <classes>
+      <class name="E2EFramework.HomePage">
+        <methods>
+          <include name="driverclose"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- E2EFramework.HomePage -->
       <class name="E2EFramework.ValidateTitle">
         <methods>
           <include name="basePageNavigation"/>
@@ -10,6 +19,12 @@
           <include name="driverclose"/>
         </methods>
       </class> <!-- E2EFramework.ValidateTitle -->
+      <class name="E2EFramework.ValidateContactNavigation">
+        <methods>
+          <include name="initilize"/>
+          <include name="driverclose"/>
+        </methods>
+      </class> <!-- E2EFramework.ValidateContactNavigation -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- E2EFramework.ValidateTitle(failed) -->
+</suite> <!-- Failed suite [Suite] -->

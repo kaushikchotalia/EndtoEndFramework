@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+
+	<listeners>
+		<listener class-name="E2EFramework.listeners"/>
+		<listener class-name="resources.ExtentReporterNG"/>
+	
+		</listeners>
+
+  <test thread-count="5" name="E2EFramework.ValidateContactNavigation">
     <classes>
-      <class name="E2EFramework.ValidateContactNavigation"/>
-      <class name="E2EFramework.AppTest"/>
+      <class name="E2EFramework.ValidateContactNavigation"/>       
+    </classes>
+    </test>
+    
+     
+     <test thread-count="5" name="E2EFramework.ValidateTitle">
+    <classes>
       <class name="E2EFramework.ValidateTitle"/>
+       </classes>
+    </test>
+    
+    <test thread-count="5" name="E2EFramework.HomePage">
+    <classes>
       <class name="E2EFramework.HomePage"/>
     </classes>
-  </test> <!-- Test -->
+        </test>
+        
+ <!-- Test -->
 </suite> <!-- Suite -->

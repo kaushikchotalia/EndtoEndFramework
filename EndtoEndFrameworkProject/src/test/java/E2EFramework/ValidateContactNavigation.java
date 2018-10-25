@@ -20,7 +20,7 @@ public class ValidateContactNavigation extends base
 		
 	}
 	@Test
-	public void basePageNavigation()
+	public void validateNavigation()
 	{
 		driver.get(prop.getProperty("url"));  
 		driver.manage().window().maximize();
@@ -32,6 +32,7 @@ public class ValidateContactNavigation extends base
 	public void driverclose()
 	{
 		driver.close();
+		driver=null;
 	}
 }
 

@@ -40,6 +40,7 @@ public class HomePage extends base{
 	public void driverclose()
 	{
 		driver.close();
+		driver=null;
 	}
 	
 	@DataProvider

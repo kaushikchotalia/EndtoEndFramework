@@ -22,7 +22,7 @@ public class ValidateTitle extends base
 	}
 	
 	@Test
-	public void basePageNavigation()
+	public void validateHomePageTitle()
 	{
 		driver.get(prop.getProperty("url"));  
 		driver.manage().window().maximize();
@@ -37,6 +37,7 @@ public class ValidateTitle extends base
 	public void driverclose()
 	{
 		driver.close();
+		driver=null;
 	}
 	
 }
