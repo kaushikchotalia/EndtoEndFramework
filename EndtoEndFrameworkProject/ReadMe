@@ -4,7 +4,7 @@ End to End Framework which involves below functionalities.
 2. Creating Base and Utility functions 
 3. Page Ojects in pageObects folder under src/main/java
 4. TestNG Tests in src/test/java
-5. Datadriven/Parameterizing Test in HomePage.java (One test using two different set if data)
+5. Datadriven/Parameterizing Test in HomePage.java (One test using two different set of data)
 6. TestNG Framework 
 7. TestNG Listeners - listeners.java and ExtentReporterNG.java
 8. Screenshot on Test Failure - getScreenshot utility in base.java
